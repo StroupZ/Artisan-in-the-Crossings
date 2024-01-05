@@ -1,5 +1,9 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
+import Head from "next/head"
+
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +15,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <Head>
+        <link rel="shortcut icon" href="/icon.ico" type="image/x-icon" />
+        <title>{"Artisan in the Crossings"}</title>
+        <meta name="title" content="Artisan in the Crossings" />
+        <meta name="description" content="Artisan in the Crossings Website" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Artisan in the Crossings" />
+        <meta property="og:description" content="Artisan in the Crossings Website" />
+        <meta property="og:image" content="/icon.ico" />
+      </Head>
+      <body className={inter.className}>{children}
+      </body>
     </html>
   )
 }

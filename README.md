@@ -14,12 +14,15 @@ A modern landing page which is slick and stylish. Features a dropdown navigation
 <br><br>
 ## Showcase
 Homepage
+<br>
 ![artisan-home](https://github.com/StroupZ/Artisan-in-the-Crossings/assets/119818799/ab617f44-4c5e-43dc-9964-c661757f16b5)
 <br><br>
 Mobile
+<br>
 ![artisan-cell](https://github.com/StroupZ/Artisan-in-the-Crossings/assets/119818799/de8b2236-7947-42e6-8659-e927f670cd89)
 <br><br>
 Menu
+<br>
 ![artisan-menu](https://github.com/StroupZ/Artisan-in-the-Crossings/assets/119818799/b9f01eda-785a-4fa5-b8d4-b06958a2a1d7)
 
 

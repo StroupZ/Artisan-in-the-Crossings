@@ -10,9 +10,9 @@ const Navbar = () => {
 
     return (
         <nav className="flex">
-          <div className="p-[5vw] text-white items-center justify-start space-x-6 flex">
+          <div className="p-[5vw] text-white items-center justify-start lg:space-x-6 flex">
             <img src="j-logo-a.svg" className="md:w-24 w-16 hover:scale-110 hover:cursor-pointer md:pr-10 pr-4" onClick={handleReload} />
-              <ul className="flex space-x-6 z-20">
+              <ul className="flex space-x-3 lg:space-x-6 z-20">
                 <li className="hover:cursor-pointer hover:scale-110 relative inline-block group/main">
                   <div className="flex space-x-1 items-center font-sourceCodePro">
                     <p className="block">Aesthetics</p>

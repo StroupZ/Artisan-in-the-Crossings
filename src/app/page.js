@@ -37,7 +37,7 @@ export default function Home() {
             <div className="h-screen w-full fixed -z-50">
               <img src="statueai2.jpg" className="w-full h-full object-cover" />
             </div>
-            <div className="md:pl-[20vw] pl-2 fixed z-[-20] bottom-1/2 md:bottom-24">
+            <div className="md:pl-[20vw] pl-[4vw] fixed z-[-20] bottom-1/2 md:bottom-24">
               <Animation />
             </div>
             <div data-scroll-container id="scrollContainer" ref={containerRef}>
@@ -51,7 +51,7 @@ export default function Home() {
                 <div className="block md:hidden">
                   <NavIcon show={show} setShow={setShow} />
                 </div>
-                <div className="pl-12 md:pl-40 relative">
+                <div className="pl-12 md:pl-28 xl:pl-40 relative">
                   <AWAnimation />
                 </div>
                 <div className="absolute bottom-0 inset-x-0" data-scroll data-scroll-speed="0.75">
@@ -63,13 +63,13 @@ export default function Home() {
                 <p className="font-sourceCodePro md:text-base text-xs"><i>ARTISAN in the Crossings</i> is a premier med spa offering a variety of aesthetics and wellness services in the Prescott area and providing an unparalleled level of expertise and personal care. We provide access to an expansive range of cutting-edge techniques, treatments, and products to enable you to achieve your aesthetic goals while still maintaining your natural, unique look.</p>
                 <img src="greek-column.svg" className="w-16"></img>
               </div>
-              <div id="info" className="md:h-[50vh] w-full bg-gradient-to-br from-[#8f83a7] to-[#2e2c2f] flex flex-col md:flex-row relative">
+              <div id="info" className="md:h-[50vh] md:min-h-fit w-full bg-gradient-to-br from-[#8f83a7] to-[#2e2c2f] flex flex-col md:flex-row relative">
                 <div className="md:w-1/3 w-full h-[360px] sm:h-[500px] md:h-full flex">
                   <img src="jenn-grey.jpg" className="w-full object-cover object-[50%_25%] p-4" />
                 </div>
                 <div className="md:w-1/3 h-full items-center flex flex-col mx-4">
-                  <img src="artisan1.svg" className="w-3/4 min-w-[360px]" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.5" />
-                  <div className="text-white flex flex-col items-center space-y-2 -translate-y-4">
+                  <img src="artisan1.svg" className="md:w-3/4" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.5" />
+                  <div className="text-white md:text-sm text-base xl:text-base flex flex-col items-center space-y-2 -translate-y-4">
                     <div className="flex items-center space-x-2">
                       <img src="phone-icon.svg" className="w-6" />
                       <p>(928)362-7773</p>

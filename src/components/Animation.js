@@ -34,7 +34,7 @@ const Animation = () => {
         <div>
           <div>
             <svg
-            className="md:h-[10vw] md:min-h-[200px] h-[120px] z-[1] translate-x-6 md:translate-x-0"
+            className="2xl:h-[10vw] 2xl:min-h-[200px] h-[120px] z-[1] translate-x-6 2xl:translate-x-0"
             viewBox="0 0 515 648"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ const Animation = () => {
             ))}
             </svg>
             <svg
-            className="md:h-[10vw] max-h-[58px] md:min-h-[20px] h-[24px] z-[1] mt-1 md:mt-4 md:-translate-x-24"
+            className="2xl:h-[10vw] max-h-[58px] 2xl:min-h-[20px] h-[24px] z-[1] mt-1 2xl:mt-4 2xl:-translate-x-24"
             viewBox="0 0 956 150"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ const Animation = () => {
               ))}
             </svg>
             <svg
-            className="md:h-[10vw] max-h-[56px] md:min-h-[8px] h-[24px] z-[1] mt-1 translate-x-6 md:-translate-x-10 md:mt-2"
+            className="2xl:h-[10vw] max-h-[56px] 2xl:min-h-[8px] h-[24px] z-[1] mt-1 translate-x-6 2xl:-translate-x-10 2xl:mt-2"
             viewBox="0 0 502 118"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

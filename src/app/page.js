@@ -69,7 +69,7 @@ export default function Home() {
                 </div>
                 <div className="md:w-1/3 h-full items-center flex flex-col mx-4">
                   <img src="artisan1.svg" className="md:w-3/4" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.5" />
-                  <div className="text-white md:text-sm text-base xl:text-base flex flex-col items-center space-y-2 -translate-y-4">
+                  <div className="text-white md:text-sm text-base xl:text-base flex flex-col items-center space-y-2 xl:-translate-y-8 -translate-y-4 pb-2">
                     <div className="flex items-center space-x-2">
                       <img src="phone-icon.svg" className="w-6" />
                       <p>(928)362-7773</p>
